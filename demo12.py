@@ -17,5 +17,10 @@ print(result)'''
 
 
 #for column wise operation
-colsum=df.apply(lambda x:x["A"]+x["B"],axis=1)
-print(colsum)
+'''colsum=df.apply(lambda x:x["A"]+x["B"],axis=1)
+print(colsum)'''
+
+#for apply function on entire dataframe
+res =df.apply(lambda x:x*2)
+print(res)  
+
